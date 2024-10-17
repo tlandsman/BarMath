@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEFC25E82CC170C3001AB1BE /* BarCalc Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFC25E92CC170C3001AB1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFC25DB2CC170C3001AB1BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFC25E62CC170C3001AB1BE;
+			remoteInfo = "BarCalc Watch App";
+		};
+		EEFC25FA2CC170C5001AB1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFC25DB2CC170C3001AB1BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFC25E62CC170C3001AB1BE;
+			remoteInfo = "BarCalc Watch App";
+		};
+		EEFC26042CC170C5001AB1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFC25DB2CC170C3001AB1BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFC25E62CC170C3001AB1BE;
+			remoteInfo = "BarCalc Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEFC26102CC170C5001AB1BE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EEFC25E82CC170C3001AB1BE /* BarCalc Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EEFC25E12CC170C3001AB1BE /* BarCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarCalc Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC25F92CC170C5001AB1BE /* BarCalc Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarCalc Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC26032CC170C5001AB1BE /* BarCalc Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarCalc Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EEFC25EB2CC170C3001AB1BE /* BarCalc Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BarCalc Watch App";
+			sourceTree = "<group>";
+		};
+		EEFC25FC2CC170C5001AB1BE /* BarCalc Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BarCalc Watch AppTests";
+			sourceTree = "<group>";
+		};
+		EEFC26062CC170C5001AB1BE /* BarCalc Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BarCalc Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFC25E42CC170C3001AB1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC25F62CC170C5001AB1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC26002CC170C5001AB1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFC25DA2CC170C3001AB1BE = {
+			isa = PBXGroup;
+			children = (
+				EEFC25EB2CC170C3001AB1BE /* BarCalc Watch App */,
+				EEFC25FC2CC170C5001AB1BE /* BarCalc Watch AppTests */,
+				EEFC26062CC170C5001AB1BE /* BarCalc Watch AppUITests */,
+				EEFC25E22CC170C3001AB1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFC25E22CC170C3001AB1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFC25E12CC170C3001AB1BE /* BarCalc.app */,
+				EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */,
+				EEFC25F92CC170C5001AB1BE /* BarCalc Watch AppTests.xctest */,
+				EEFC26032CC170C5001AB1BE /* BarCalc Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFC25E02CC170C3001AB1BE /* BarCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFC26112CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc" */;
+			buildPhases = (
+				EEFC25DF2CC170C3001AB1BE /* Resources */,
+				EEFC26102CC170C5001AB1BE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFC25EA2CC170C3001AB1BE /* PBXTargetDependency */,
+			);
+			name = BarCalc;
+			packageProductDependencies = (
+			);
+			productName = BarCalc;
+			productReference = EEFC25E12CC170C3001AB1BE /* BarCalc.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFC260D2CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch App" */;
+			buildPhases = (
+				EEFC25E32CC170C3001AB1BE /* Sources */,
+				EEFC25E42CC170C3001AB1BE /* Frameworks */,
+				EEFC25E52CC170C3001AB1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EEFC25EB2CC170C3001AB1BE /* BarCalc Watch App */,
+			);
+			name = "BarCalc Watch App";
+			packageProductDependencies = (
+			);
+			productName = "BarCalc Watch App";
+			productReference = EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFC25F82CC170C5001AB1BE /* BarCalc Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFC26142CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppTests" */;
+			buildPhases = (
+				EEFC25F52CC170C5001AB1BE /* Sources */,
+				EEFC25F62CC170C5001AB1BE /* Frameworks */,
+				EEFC25F72CC170C5001AB1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFC25FB2CC170C5001AB1BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EEFC25FC2CC170C5001AB1BE /* BarCalc Watch AppTests */,
+			);
+			name = "BarCalc Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "BarCalc Watch AppTests";
+			productReference = EEFC25F92CC170C5001AB1BE /* BarCalc Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEFC26022CC170C5001AB1BE /* BarCalc Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFC26172CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppUITests" */;
+			buildPhases = (
+				EEFC25FF2CC170C5001AB1BE /* Sources */,
+				EEFC26002CC170C5001AB1BE /* Frameworks */,
+				EEFC26012CC170C5001AB1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFC26052CC170C5001AB1BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EEFC26062CC170C5001AB1BE /* BarCalc Watch AppUITests */,
+			);
+			name = "BarCalc Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "BarCalc Watch AppUITests";
+			productReference = EEFC26032CC170C5001AB1BE /* BarCalc Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFC25DB2CC170C3001AB1BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EEFC25E02CC170C3001AB1BE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EEFC25E62CC170C3001AB1BE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EEFC25F82CC170C5001AB1BE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EEFC25E62CC170C3001AB1BE;
+					};
+					EEFC26022CC170C5001AB1BE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EEFC25E62CC170C3001AB1BE;
+					};
+				};
+			};
+			buildConfigurationList = EEFC25DE2CC170C3001AB1BE /* Build configuration list for PBXProject "BarCalc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFC25DA2CC170C3001AB1BE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EEFC25E22CC170C3001AB1BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFC25E02CC170C3001AB1BE /* BarCalc */,
+				EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */,
+				EEFC25F82CC170C5001AB1BE /* BarCalc Watch AppTests */,
+				EEFC26022CC170C5001AB1BE /* BarCalc Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFC25DF2CC170C3001AB1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC25E52CC170C3001AB1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC25F72CC170C5001AB1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC26012CC170C5001AB1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFC25E32CC170C3001AB1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC25F52CC170C5001AB1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC25FF2CC170C5001AB1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFC25EA2CC170C3001AB1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */;
+			targetProxy = EEFC25E92CC170C3001AB1BE /* PBXContainerItemProxy */;
+		};
+		EEFC25FB2CC170C5001AB1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */;
+			targetProxy = EEFC25FA2CC170C5001AB1BE /* PBXContainerItemProxy */;
+		};
+		EEFC26052CC170C5001AB1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */;
+			targetProxy = EEFC26042CC170C5001AB1BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEFC260B2CC170C5001AB1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEFC260C2CC170C5001AB1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EEFC260E2CC170C5001AB1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarCalc Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BarCalc;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.BarCalc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		EEFC260F2CC170C5001AB1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarCalc Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BarCalc;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.BarCalc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		EEFC26122CC170C5001AB1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				INFOPLIST_KEY_CFBundleDisplayName = BarCalc;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.BarCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EEFC26132CC170C5001AB1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				INFOPLIST_KEY_CFBundleDisplayName = BarCalc;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.BarCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEFC26152CC170C5001AB1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanya.BarCalc-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCalc Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarCalc Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		EEFC26162CC170C5001AB1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanya.BarCalc-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCalc Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarCalc Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		EEFC26182CC170C5001AB1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanya.BarCalc-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BarCalc Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		EEFC26192CC170C5001AB1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanya.BarCalc-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BarCalc Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFC25DE2CC170C3001AB1BE /* Build configuration list for PBXProject "BarCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFC260B2CC170C5001AB1BE /* Debug */,
+				EEFC260C2CC170C5001AB1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFC260D2CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFC260E2CC170C5001AB1BE /* Debug */,
+				EEFC260F2CC170C5001AB1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFC26112CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFC26122CC170C5001AB1BE /* Debug */,
+				EEFC26132CC170C5001AB1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFC26142CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFC26152CC170C5001AB1BE /* Debug */,
+				EEFC26162CC170C5001AB1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFC26172CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFC26182CC170C5001AB1BE /* Debug */,
+				EEFC26192CC170C5001AB1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEFC25DB2CC170C3001AB1BE /* Project object */;
+}
