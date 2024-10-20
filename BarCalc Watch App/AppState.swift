@@ -65,26 +65,6 @@ struct PlateState: Hashable, Identifiable {
 }
 
 
-enum PlateAction {
-    case counterTapped
-}
-
-
-//protocol ActionProtocol {}
-//protocol EventProtocol {}
-//protocol StateProtocol {}
-//
-//protocol Reducer {
-//    func reduce(state: StateProtocol, action: ActionProtocol) -> StateProtocol
-//}
-
-func reduce(state: inout PlateState, action: PlateAction) {
-    switch action {
-    case .counterTapped:
-        state.count = state.count + 1
-    }
-}
-
 
 struct PlateStateFactory {
     private let weights = [2.5, 5, 10, 15, 25, 30]
@@ -92,6 +72,3 @@ struct PlateStateFactory {
         return weights.map { PlateState(weight: $0)}
     }
 }
-
-
-
