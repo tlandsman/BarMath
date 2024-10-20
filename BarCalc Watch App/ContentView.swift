@@ -51,19 +51,6 @@ struct WeightGridView: View {
 
     var body: some View {
         ScrollView {
-           
-//            HStack {
-////                Text("Total: \(store.state.total)")
-////                    .font(.title3)
-////                  //  .padding(10)
-////          
-////                Image(systemName: "arrow.clockwise")
-////                    .foregroundColor(.red)
-////                    .onTapGesture {
-////                        store.onAction(.clearTapped)
-////                    }
-//
-//            }
             LazyVGrid(columns: columns) {
                 ForEach(store.state.plateArray) { state in
                     PlateButton(weight: state.weight, counter: state.count) {_ in
@@ -72,8 +59,17 @@ struct WeightGridView: View {
                 }
             }
             .background(Color.clear)
+            .padding(.bottom)
             
-  
+            Divider()
+            
+            HStack{
+                Image(systemName: "dumbbell")
+                Text("Bar Weight:")
+                Text("35lbs")
+            }
+           
+            .padding()
         }
     }
 }
