@@ -38,7 +38,7 @@ struct WeightGridView: View {
                     .font(.title3)
                   //  .padding(10)
           
-                Image(systemName: "xmark.circle")
+                Image(systemName: "arrow.clockwise")
                     .foregroundColor(.red)
                     .onTapGesture {
                         store.onAction(.clearTapped)
@@ -83,7 +83,7 @@ struct PlateButton: View {
                 }
             if counter > 0 {
                 BadgeView(counter: counter)
-                    .offset(x: 24, y: -25) // Position the badge at the top-right
+                    .offset(x: 24, y: -22) // Position the badge at the top-right
             }
            
         }
@@ -117,7 +117,7 @@ struct PlateView: View {
                         
                 })
                 .overlay {
-                    Circle().stroke(Color.white, lineWidth: 3)
+                    Circle().stroke(Color.white, lineWidth: 2)
                 }
                 .shadow(color: Color.black, radius: 1.0)
             
@@ -128,11 +128,6 @@ struct PlateView: View {
                 .font(.footnote)
         }
        
-            
-            
-          
-           
-        
     }
 }
 
