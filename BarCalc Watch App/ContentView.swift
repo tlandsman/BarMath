@@ -29,10 +29,7 @@ struct WeightGridView: View {
         GridItem(.flexible()),
    
     ]
-   // let weights = [2.5, 5, 10, 15, 25, 30]
-   
-    
-    
+
     var body: some View {
         ScrollView {
            
@@ -50,10 +47,9 @@ struct WeightGridView: View {
             }
             LazyVGrid(columns: columns) {
                 ForEach(store.state.plateArray) { state in
-                    PlateButton(weight: state.weight) {_ in
+                    PlateButton(weight: state.weight, counter: state.count) {_ in
                         store.onAction(.weightTapped(state.weight))
                     }
-                    
                 }
             }
             .background(Color.clear)
@@ -68,8 +64,9 @@ struct WeightGridView: View {
 
 struct PlateButton: View {
     let weight: Double
+    let counter: Int
     let buttonAction:(Double) -> Void
-    let counter: Int = 0
+
     var displayWeight: String {
         if (weight == 2.5) {
             return "\(weight)"
@@ -97,7 +94,7 @@ struct PlateButton: View {
 
 struct PlateButton_Previews: PreviewProvider {
     static var previews: some View {
-        PlateButton(weight: 5, buttonAction: {_ in })
+        PlateButton(weight: 5, counter: 1, buttonAction: {_ in })
     }
 }
 
