@@ -10,6 +10,8 @@ struct AppState {
     var total: Int {
         return Int(sidePlateWeight * 2 + barWeight)
     }
+    
+  
 }
 
 enum Action {
@@ -21,13 +23,20 @@ func reducer(state: inout AppState, action: Action) {
     switch action {
     case .weightTapped(let weight):
         state.sidePlateWeight = state.sidePlateWeight + weight
-        print(">>> total plateWeight: \(state.sidePlateWeight)")
-        print(">>> total: \(state.total)")
+        
+        // update count
+        if let index = state.plateArray.firstIndex(where: { $0.weight == weight }) {
+            state.plateArray[index].count += 1
+        }
+        
        
     case .clearTapped:
         state.sidePlateWeight = 0
+        state.plateArray = PlateStateFactory().createPlateStates()
     }
 }
+
+
     
 final class AppStore: ObservableObject {
     @Published var state: AppState

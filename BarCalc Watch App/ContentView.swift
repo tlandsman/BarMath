@@ -81,7 +81,7 @@ struct PlateButton: View {
                 .onTapGesture {
                     buttonAction(weight)
                 }
-            if counter > 1 {
+            if counter > 0 {
                 BadgeView(counter: counter)
                     .offset(x: 24, y: -25) // Position the badge at the top-right
             }
@@ -147,11 +147,17 @@ struct BadgeView: View {
     var counter: Int
     
     var body: some View {
-        Text("/(counter)")
+        Text("\(counter)")
             .font(.caption)
             .foregroundColor(.white)
             .frame(width: 20, height: 20)
             .background(Color.blue)
             .clipShape(Circle())
+    }
+}
+
+struct BadgeView_Previews: PreviewProvider {
+    static var previews: some View {
+        BadgeView(counter: 2)
     }
 }
