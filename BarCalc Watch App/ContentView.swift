@@ -10,7 +10,26 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var store: AppStore
     var body: some View {
-        WeightGridView(store: store)
+      
+        
+        NavigationView {
+                    VStack {
+                        WeightGridView(store: store)
+                    }
+                    .navigationTitle("Total: \(store.state.total)")  // Sets the title of the view
+                
+                    .toolbar {
+                        // Toolbar button on the trailing (right) side
+                        ToolbarItem(placement: .topBarTrailing) {
+                            Button(action: {
+                                store.onAction(.clearTapped)
+                            }) {
+                                Image(systemName: "arrow.clockwise")
+                            }
+                        }
+                    }
+                  
+                }
             
     }
 }
@@ -33,18 +52,18 @@ struct WeightGridView: View {
     var body: some View {
         ScrollView {
            
-            HStack {
-                Text("Total: \(store.state.total)")
-                    .font(.title3)
-                  //  .padding(10)
-          
-                Image(systemName: "arrow.clockwise")
-                    .foregroundColor(.red)
-                    .onTapGesture {
-                        store.onAction(.clearTapped)
-                    }
-
-            }
+//            HStack {
+////                Text("Total: \(store.state.total)")
+////                    .font(.title3)
+////                  //  .padding(10)
+////          
+////                Image(systemName: "arrow.clockwise")
+////                    .foregroundColor(.red)
+////                    .onTapGesture {
+////                        store.onAction(.clearTapped)
+////                    }
+//
+//            }
             LazyVGrid(columns: columns) {
                 ForEach(store.state.plateArray) { state in
                     PlateButton(weight: state.weight, counter: state.count) {_ in
@@ -105,11 +124,11 @@ struct PlateView: View {
         ZStack {
             Circle()
                 .fill(Color.gray) // Fill the circle with color
-                .frame(width: 60, height: 60) // Define the size of the circle
+                .frame(width: 52, height: 52) // Define the size of the circle
                 .overlay(content: {
                     Circle()
                         .fill(Color.black)
-                        .frame(width: 34, height: 34)
+                        .frame(width: 30, height: 30)
                         .overlay {
                             Circle().stroke(Color.white, lineWidth: 1)
                                 .shadow(color: Color.black, radius: 2.0)
