@@ -67,7 +67,7 @@ struct PlateState: Hashable, Identifiable {
 
 
 struct PlateStateFactory {
-    private let weights = [2.5, 5, 10, 15, 25, 30]
+    private let weights = [2.5, 5, 10, 15, 25, 30, 35, 45]
     func createPlateStates() -> [PlateState] {
         return weights.map { PlateState(weight: $0)}
     }
