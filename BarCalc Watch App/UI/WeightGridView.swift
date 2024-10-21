@@ -12,6 +12,13 @@ struct WeightGridView: View {
 
     var body: some View {
         ScrollView {
+            Divider()
+            HStack {
+                Text("Side Weight")
+                    .foregroundColor(.secondary)
+                Spacer()
+            }
+            
             LazyVGrid(columns: columns) {
                 ForEach(store.state.plateArray) { state in
                     PlateButton(weight: state.weight, counter: state.count) {_ in
@@ -23,13 +30,19 @@ struct WeightGridView: View {
             .padding(.bottom)
             
             Divider()
-            
             HStack{
-                Text("Bar:")
+                Text("Bar Weight:")
                 Text("35lbs")
-            }
+                Spacer()
+            } .foregroundColor(.secondary)
+   
+         
            
             .padding()
         }
     }
+}
+
+#Preview {
+    WeightGridView(store: AppStore())
 }

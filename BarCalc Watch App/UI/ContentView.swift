@@ -8,29 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var store: AppStore
+    var store: AppStore
+    
     var body: some View {
-      
-        
-        NavigationView {
-                    VStack {
-                        WeightGridView(store: store)
-                    }
-                    .navigationTitle("Total: \(store.state.total)")  // Sets the title of the view
-                
-                    .toolbar {
-                        // Toolbar button on the trailing (right) side
-                        ToolbarItem(placement: .topBarTrailing) {
-                            Button(action: {
-                                store.onAction(.clearTapped)
-                            }) {
-                                Image(systemName: "arrow.clockwise")
-                            }
-                        }
-                    }
-                  
-                }
-            
+        BuildPage(store: store)
     }
 }
 
@@ -39,3 +20,25 @@ struct ContentView: View {
 }
 
 
+struct BuildPage: View {
+    @ObservedObject var store: AppStore
+    var body: some View {
+        NavigationView {
+            WeightGridView(store: store)
+            
+                .navigationTitle("Total: \(store.state.total)")  // Sets the title of the view
+            
+                .toolbar {
+                    // Toolbar button on the trailing (right) side
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button(action: {
+                            store.onAction(.clearTapped)
+                        }) {
+                            Image(systemName: "arrow.clockwise")
+                        }
+                    }
+                }
+            
+        }
+    }
+}
