@@ -64,8 +64,7 @@ struct WeightGridView: View {
             Divider()
             
             HStack{
-                Image(systemName: "dumbbell")
-                Text("Bar Weight:")
+                Text("Bar:")
                 Text("35lbs")
             }
            
@@ -120,7 +119,7 @@ struct PlateView: View {
         ZStack {
             Circle()
                 .fill(Color.gray) // Fill the circle with color
-                .frame(width: 52, height: 52) // Define the size of the circle
+                .frame(width: 48, height: 48) // Define the size of the circle
                 .overlay(content: {
                     Circle()
                         .fill(Color.black)
