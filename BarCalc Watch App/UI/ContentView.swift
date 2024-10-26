@@ -16,7 +16,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(store: AppStore( state: AppState(sidePlateWeight: 0, barWeight: 35, plateArray: PlateStateFactory().createPlateStates())))
+    ContentView(store: AppStore( state: AppState(sidePlateWeight: 0, bar: .medium, plateArray: PlateStateFactory().createPlateStates())))
 }
 
 

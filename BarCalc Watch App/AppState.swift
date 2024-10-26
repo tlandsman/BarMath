@@ -3,15 +3,18 @@ import Combine
 
 struct AppState {
     var sidePlateWeight: Double
-    let barWeight: Double
+    let bar: Bar
    
     var plateArray: [PlateState]
     
     var total: Int {
-        return Int(sidePlateWeight * 2 + barWeight)
+        return Int(sidePlateWeight * 2 + Double(bar.rawValue))
     }
-    
-  
+}
+
+enum Bar: Int {
+    case medium = 35
+    case large = 45
 }
 
 enum Action {
@@ -41,7 +44,7 @@ func reducer(state: inout AppState, action: Action) {
 final class AppStore: ObservableObject {
     @Published var state: AppState
     
-    init(state: AppState = AppState(sidePlateWeight: 0, barWeight: 35, plateArray: PlateStateFactory().createPlateStates()) ) {
+    init(state: AppState = AppState(sidePlateWeight: 0, bar: .medium, plateArray: PlateStateFactory().createPlateStates()) ) {
         self.state = state
     }
     
