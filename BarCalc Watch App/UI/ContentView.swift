@@ -25,9 +25,7 @@ struct BuildPage: View {
     var body: some View {
         NavigationView {
             WeightGridView(store: store)
-            
-                .navigationTitle("Total: \(store.state.total)")  // Sets the title of the view
-            
+                .navigationTitle("Total: \(store.state.total)")
                 .toolbar {
                     // Toolbar button on the trailing (right) side
                     ToolbarItem(placement: .topBarTrailing) {
