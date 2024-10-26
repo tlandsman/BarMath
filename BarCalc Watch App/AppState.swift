@@ -3,7 +3,7 @@ import Combine
 
 struct AppState {
     var sidePlateWeight: Double
-    let bar: Bar
+    var bar: Bar
    
     var plateArray: [PlateState]
     
@@ -20,6 +20,7 @@ enum Bar: Int {
 enum Action {
     case weightTapped(Double)
     case clearTapped
+    case setBar(Bar)
 }
 
 func reducer(state: inout AppState, action: Action) {
@@ -36,6 +37,9 @@ func reducer(state: inout AppState, action: Action) {
     case .clearTapped:
         state.sidePlateWeight = 0
         state.plateArray = PlateStateFactory().createPlateStates()
+        
+    case .setBar(let bar):
+        state.bar = bar
     }
 }
 

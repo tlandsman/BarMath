@@ -23,13 +23,10 @@ struct WeightGridView: View {
             .padding(.bottom)
             
             Divider()
-            HStack{
-                Text("Bar Weight:")
-                Text("35lbs")
-                Spacer()
-            } .foregroundColor(.secondary)
-                .font(.footnote)
-            .padding()
+            
+            BarSettingView(bar: store.state.bar, barSelectAction: { bar in
+                store.onAction(.setBar(bar))
+            })
         }
     }
 }
