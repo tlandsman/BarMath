@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BarCalc_Watch_AppApp: App {
+struct BarMath_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView(store: AppStore())

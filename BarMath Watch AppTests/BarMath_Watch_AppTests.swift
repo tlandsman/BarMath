@@ -8,7 +8,7 @@
 import Testing
 @testable import BarCalc_Watch_App
 
-struct BarCalc_Watch_AppTests {
+struct BarMath_Watch_AppTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

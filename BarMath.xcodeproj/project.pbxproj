@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEFC25E82CC170C3001AB1BE /* BarCalc Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EEFC25E82CC170C3001AB1BE /* BarMath Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EEFC25E72CC170C3001AB1BE /* BarMath Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				EEFC25E82CC170C3001AB1BE /* BarCalc Watch App.app in Embed Watch Content */,
+				EEFC25E82CC170C3001AB1BE /* BarMath Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,26 +49,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EEFC25E12CC170C3001AB1BE /* BarCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarCalc Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEFC25F92CC170C5001AB1BE /* BarCalc Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarCalc Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEFC26032CC170C5001AB1BE /* BarCalc Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarCalc Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC25E12CC170C3001AB1BE /* BarMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC25E72CC170C3001AB1BE /* BarMath Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarMath Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC25F92CC170C5001AB1BE /* BarMath Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarMath Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC26032CC170C5001AB1BE /* BarMath Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarMath Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EEFC25EB2CC170C3001AB1BE /* BarCalc Watch App */ = {
+		EEFC25EB2CC170C3001AB1BE /* BarMath Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "BarCalc Watch App";
+			path = "BarMath Watch App";
 			sourceTree = "<group>";
 		};
-		EEFC25FC2CC170C5001AB1BE /* BarCalc Watch AppTests */ = {
+		EEFC25FC2CC170C5001AB1BE /* BarMath Watch AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "BarCalc Watch AppTests";
-			sourceTree = "<group>";
-		};
-		EEFC26062CC170C5001AB1BE /* BarCalc Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "BarCalc Watch AppUITests";
+			path = "BarMath Watch AppTests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -101,9 +96,8 @@
 		EEFC25DA2CC170C3001AB1BE = {
 			isa = PBXGroup;
 			children = (
-				EEFC25EB2CC170C3001AB1BE /* BarCalc Watch App */,
-				EEFC25FC2CC170C5001AB1BE /* BarCalc Watch AppTests */,
-				EEFC26062CC170C5001AB1BE /* BarCalc Watch AppUITests */,
+				EEFC25EB2CC170C3001AB1BE /* BarMath Watch App */,
+				EEFC25FC2CC170C5001AB1BE /* BarMath Watch AppTests */,
 				EEFC25E22CC170C3001AB1BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,10 +105,10 @@
 		EEFC25E22CC170C3001AB1BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEFC25E12CC170C3001AB1BE /* BarCalc.app */,
-				EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */,
-				EEFC25F92CC170C5001AB1BE /* BarCalc Watch AppTests.xctest */,
-				EEFC26032CC170C5001AB1BE /* BarCalc Watch AppUITests.xctest */,
+				EEFC25E12CC170C3001AB1BE /* BarMath.app */,
+				EEFC25E72CC170C3001AB1BE /* BarMath Watch App.app */,
+				EEFC25F92CC170C5001AB1BE /* BarMath Watch AppTests.xctest */,
+				EEFC26032CC170C5001AB1BE /* BarMath Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EEFC25E02CC170C3001AB1BE /* BarCalc */ = {
+		EEFC25E02CC170C3001AB1BE /* BarMath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEFC26112CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc" */;
+			buildConfigurationList = EEFC26112CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath" */;
 			buildPhases = (
 				EEFC25DF2CC170C3001AB1BE /* Resources */,
 				EEFC26102CC170C5001AB1BE /* Embed Watch Content */,
@@ -134,16 +128,16 @@
 			dependencies = (
 				EEFC25EA2CC170C3001AB1BE /* PBXTargetDependency */,
 			);
-			name = BarCalc;
+			name = BarMath;
 			packageProductDependencies = (
 			);
 			productName = BarCalc;
-			productReference = EEFC25E12CC170C3001AB1BE /* BarCalc.app */;
+			productReference = EEFC25E12CC170C3001AB1BE /* BarMath.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */ = {
+		EEFC25E62CC170C3001AB1BE /* BarMath Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEFC260D2CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch App" */;
+			buildConfigurationList = EEFC260D2CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath Watch App" */;
 			buildPhases = (
 				EEFC25E32CC170C3001AB1BE /* Sources */,
 				EEFC25E42CC170C3001AB1BE /* Frameworks */,
@@ -154,18 +148,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EEFC25EB2CC170C3001AB1BE /* BarCalc Watch App */,
+				EEFC25EB2CC170C3001AB1BE /* BarMath Watch App */,
 			);
-			name = "BarCalc Watch App";
+			name = "BarMath Watch App";
 			packageProductDependencies = (
 			);
 			productName = "BarCalc Watch App";
-			productReference = EEFC25E72CC170C3001AB1BE /* BarCalc Watch App.app */;
+			productReference = EEFC25E72CC170C3001AB1BE /* BarMath Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EEFC25F82CC170C5001AB1BE /* BarCalc Watch AppTests */ = {
+		EEFC25F82CC170C5001AB1BE /* BarMath Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEFC26142CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppTests" */;
+			buildConfigurationList = EEFC26142CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath Watch AppTests" */;
 			buildPhases = (
 				EEFC25F52CC170C5001AB1BE /* Sources */,
 				EEFC25F62CC170C5001AB1BE /* Frameworks */,
@@ -177,18 +171,18 @@
 				EEFC25FB2CC170C5001AB1BE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EEFC25FC2CC170C5001AB1BE /* BarCalc Watch AppTests */,
+				EEFC25FC2CC170C5001AB1BE /* BarMath Watch AppTests */,
 			);
-			name = "BarCalc Watch AppTests";
+			name = "BarMath Watch AppTests";
 			packageProductDependencies = (
 			);
 			productName = "BarCalc Watch AppTests";
-			productReference = EEFC25F92CC170C5001AB1BE /* BarCalc Watch AppTests.xctest */;
+			productReference = EEFC25F92CC170C5001AB1BE /* BarMath Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EEFC26022CC170C5001AB1BE /* BarCalc Watch AppUITests */ = {
+		EEFC26022CC170C5001AB1BE /* BarMath Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEFC26172CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppUITests" */;
+			buildConfigurationList = EEFC26172CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath Watch AppUITests" */;
 			buildPhases = (
 				EEFC25FF2CC170C5001AB1BE /* Sources */,
 				EEFC26002CC170C5001AB1BE /* Frameworks */,
@@ -199,14 +193,11 @@
 			dependencies = (
 				EEFC26052CC170C5001AB1BE /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				EEFC26062CC170C5001AB1BE /* BarCalc Watch AppUITests */,
-			);
-			name = "BarCalc Watch AppUITests";
+			name = "BarMath Watch AppUITests";
 			packageProductDependencies = (
 			);
 			productName = "BarCalc Watch AppUITests";
-			productReference = EEFC26032CC170C5001AB1BE /* BarCalc Watch AppUITests.xctest */;
+			productReference = EEFC26032CC170C5001AB1BE /* BarMath Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EEFC25DE2CC170C3001AB1BE /* Build configuration list for PBXProject "BarCalc" */;
+			buildConfigurationList = EEFC25DE2CC170C3001AB1BE /* Build configuration list for PBXProject "BarMath" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -249,10 +240,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EEFC25E02CC170C3001AB1BE /* BarCalc */,
-				EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */,
-				EEFC25F82CC170C5001AB1BE /* BarCalc Watch AppTests */,
-				EEFC26022CC170C5001AB1BE /* BarCalc Watch AppUITests */,
+				EEFC25E02CC170C3001AB1BE /* BarMath */,
+				EEFC25E62CC170C3001AB1BE /* BarMath Watch App */,
+				EEFC25F82CC170C5001AB1BE /* BarMath Watch AppTests */,
+				EEFC26022CC170C5001AB1BE /* BarMath Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,17 +306,17 @@
 /* Begin PBXTargetDependency section */
 		EEFC25EA2CC170C3001AB1BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */;
+			target = EEFC25E62CC170C3001AB1BE /* BarMath Watch App */;
 			targetProxy = EEFC25E92CC170C3001AB1BE /* PBXContainerItemProxy */;
 		};
 		EEFC25FB2CC170C5001AB1BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */;
+			target = EEFC25E62CC170C3001AB1BE /* BarMath Watch App */;
 			targetProxy = EEFC25FA2CC170C5001AB1BE /* PBXContainerItemProxy */;
 		};
 		EEFC26052CC170C5001AB1BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEFC25E62CC170C3001AB1BE /* BarCalc Watch App */;
+			target = EEFC25E62CC170C3001AB1BE /* BarMath Watch App */;
 			targetProxy = EEFC26042CC170C5001AB1BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,7 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BarCalc Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BarMath Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 6KV8F2XT32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -482,7 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BarCalc Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BarMath Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 6KV8F2XT32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -511,10 +502,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				INFOPLIST_KEY_CFBundleDisplayName = BarCalc;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.BarCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tlandsman.barcalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -526,10 +517,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6KV8F2XT32;
+				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				INFOPLIST_KEY_CFBundleDisplayName = BarCalc;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.BarCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tlandsman.barcalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -552,7 +543,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCalc Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarCalc Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarMath Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarMath Watch App";
 				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
@@ -572,7 +563,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCalc Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarCalc Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarMath Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarMath Watch App";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
@@ -620,7 +611,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EEFC25DE2CC170C3001AB1BE /* Build configuration list for PBXProject "BarCalc" */ = {
+		EEFC25DE2CC170C3001AB1BE /* Build configuration list for PBXProject "BarMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEFC260B2CC170C5001AB1BE /* Debug */,
@@ -629,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEFC260D2CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch App" */ = {
+		EEFC260D2CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEFC260E2CC170C5001AB1BE /* Debug */,
@@ -638,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEFC26112CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc" */ = {
+		EEFC26112CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEFC26122CC170C5001AB1BE /* Debug */,
@@ -647,7 +638,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEFC26142CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppTests" */ = {
+		EEFC26142CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEFC26152CC170C5001AB1BE /* Debug */,
@@ -656,7 +647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEFC26172CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarCalc Watch AppUITests" */ = {
+		EEFC26172CC170C5001AB1BE /* Build configuration list for PBXNativeTarget "BarMath Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEFC26182CC170C5001AB1BE /* Debug */,
