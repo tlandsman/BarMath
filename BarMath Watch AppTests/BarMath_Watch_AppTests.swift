@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import BarCalc_Watch_App
+@testable import BarMath_Watch_App
 
 struct BarMath_Watch_AppTests {
 
