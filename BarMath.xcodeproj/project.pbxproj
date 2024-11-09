@@ -55,9 +55,22 @@
 		EEFC26032CC170C5001AB1BE /* BarMath Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarMath Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EE5EAF832CDF05A500017B73 /* Exceptions for "BarMath Watch App" folder in "BarMath Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"BarMath-Watch-App-Info.plist",
+			);
+			target = EEFC25E62CC170C3001AB1BE /* BarMath Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EEFC25EB2CC170C3001AB1BE /* BarMath Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EE5EAF832CDF05A500017B73 /* Exceptions for "BarMath Watch App" folder in "BarMath Watch App" target */,
+			);
 			path = "BarMath Watch App";
 			sourceTree = "<group>";
 		};
@@ -447,6 +460,7 @@
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BarMath-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BarMath;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -477,6 +491,7 @@
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BarMath-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BarMath;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
