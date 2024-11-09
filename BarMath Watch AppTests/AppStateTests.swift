@@ -20,7 +20,7 @@ struct AppStateTests {
     @Test func test_whenWeightTapped_TotalIncrementedCorrectly() {
         var subject = AppState()
         reducer(state: &subject, action: .weightTapped(15))
-        var expectedTotal = 65
+        let expectedTotal = 65
         #expect(subject.total == expectedTotal)
     }
     
