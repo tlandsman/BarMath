@@ -46,12 +46,21 @@ struct BarButtonView: View {
                 Text(title)
                     .fontWeight(.bold)
             }
-            .background( isSelected ? .blue : .secondary)
+            .background( isSelected ? Color.activeButton : .secondary)
             .foregroundStyle( isSelected ? .primary : .secondary)
             .clipShape(Circle())
             .controlSize(.small)
             .padding(.trailing, 12)
             
   
+    }
+}
+
+
+// dark purple color similar to app icon
+
+private extension Color {
+    static var activeButton: Color {
+        .init(red: 0.3, green: 0.0, blue: 0.8, opacity: 1.0)
     }
 }
