@@ -11,6 +11,7 @@ func reducer(state: inout AppState, action: Action) {
        
     case .clearTapped:
         state.sidePlateWeight = 0
+        state.plateArray = PlateStateFactory.createPlateStates()
         
     case .setBar(let bar):
         state.bar = bar

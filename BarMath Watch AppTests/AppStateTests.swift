@@ -25,10 +25,16 @@ struct AppStateTests {
     }
     
     @Test func test_whenResetTapped_TotalResetsToBarWeight() {
-        var subject = AppState(sidePlateWeight: 50)
+        var subject = AppState()
+        reducer(state: &subject, action: .weightTapped(5))
+        #expect(subject.total == 45)
+        #expect(subject.plateArray[1].count == 1)
         reducer(state: &subject, action: .clearTapped)
         #expect(subject.total == subject.bar.rawValue)
+        #expect(subject.plateArray[1].count == 0)
     }
+    
+   
     
     @Test func test_whenSetBarTapped_BarChanged() {
         var subject = AppState(bar: .medium)
