@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EEFC25E82CC170C3001AB1BE /* BarMath Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EEFC25E72CC170C3001AB1BE /* BarMath Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F4E320892DD69B2C00C5F99F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4E320882DD69B2C00C5F99F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EEFC25E72CC170C3001AB1BE /* BarMath Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarMath Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFC25F92CC170C5001AB1BE /* BarMath Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarMath Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFC26032CC170C5001AB1BE /* BarMath Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarMath Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E320882DD69B2C00C5F99F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -96,6 +98,7 @@
 		EEFC25DA2CC170C3001AB1BE = {
 			isa = PBXGroup;
 			children = (
+				F4E320882DD69B2C00C5F99F /* README.md */,
 				EEFC25EB2CC170C3001AB1BE /* BarMath Watch App */,
 				EEFC25FC2CC170C5001AB1BE /* BarMath Watch AppTests */,
 				EEFC25E22CC170C3001AB1BE /* Products */,
@@ -260,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E320892DD69B2C00C5F99F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
