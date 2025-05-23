@@ -1,7 +1,5 @@
 # BarMath – Barbell Weight Calculator for Apple Watch
 
-![App Store Link](https://apps.apple.com/us/app/barmath/id6737529139)
-
 **BarMath** makes calculating your barbell weight as easy as lifting it (well, almost)! Designed specifically for Apple Watch, it lets lifters skip the mental math and stay focused on their workout. Whether you're training for strength, powerlifting, or just trying to hit your PR, BarMath is the fast, intuitive tool you didn't know you needed.
 
 ## 🏋️‍♂️ Features
@@ -28,8 +26,7 @@
 
 Clone project and run on apple watch or watch simulator.
 
-BarMath is available on the Apple Watch via the App Store.
-![App Store Link](https://apps.apple.com/us/app/barmath/id6737529139)
+BarMath is available on the Apple Watch via the [App Store](https://apps.apple.com/us/app/barmath/id6737529139)
 
 ## 🧰 Tech Stack
 
@@ -38,17 +35,10 @@ BarMath is available on the Apple Watch via the App Store.
 * **watchOS native app**
 
 ## 📸 Screenshots
-Default view:
 
-![BarMath Screenshot](images/Default.png)
-
-Set bar weight:
-
-![BarMath Screenshot](images/barset.png)
-
-Add plate weight:
-
-![BarMath Screenshot](images/badge.png)
+| Default view | Set bar weight | Add plate weight |
+|----------|----------|----------|
+| ![BarMath Screenshot](images/Default.png)  | ![BarMath Screenshot](images/barset.png) | ![BarMath Screenshot](images/badge.png) |
 
 
 # 🛠️ App Architecture
