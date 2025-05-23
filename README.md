@@ -43,7 +43,7 @@ BarMath is available on the Apple Watch via the [App Store](https://apps.apple.c
 
 # 🛠️ App Architecture
 
-This iOS Watch app is built using a custom Redux-style architecture tailored specifically for our needs. The goal was to adopt a predictable state management pattern without introducing third-party dependencies such as The Composable Architecture (TCA).
+This iOS Watch app is built using a custom Redux-style architecture. The goal was to adopt a predictable state management pattern without introducing third-party dependencies such as The Composable Architecture (TCA).
 
 Key Concepts:
 * Single Source of Truth: The app state is centralized and immutable, updated only through actions.
