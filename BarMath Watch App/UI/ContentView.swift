@@ -11,7 +11,7 @@ struct ContentView: View {
     var store: AppStore
     
     var body: some View {
-        BuildPage(store: store)
+        WeightSelectionView(store: store)
     }
 }
 
@@ -20,7 +20,7 @@ struct ContentView: View {
 }
 
 
-struct BuildPage: View {
+struct WeightSelectionView: View {
     @ObservedObject var store: AppStore
     var body: some View {
         NavigationView {
