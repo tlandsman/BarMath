@@ -1,7 +1,5 @@
 # BarMath – Barbell Weight Calculator for Apple Watch
 
-![App Store Link](https://apps.apple.com/us/app/barmath/id6737529139)
-
 **BarMath** makes calculating your barbell weight as easy as lifting it (well, almost)! Designed specifically for Apple Watch, it lets lifters skip the mental math and stay focused on their workout. Whether you're training for strength, powerlifting, or just trying to hit your PR, BarMath is the fast, intuitive tool you didn't know you needed.
 
 ## 🏋️‍♂️ Features
@@ -26,7 +24,9 @@
 
 ## 📦 Installation
 
-BarMath is available exclusively on the Apple Watch via the App Store.
+Clone project and run on apple watch or watch simulator.
+
+BarMath is available on the Apple Watch via the [App Store](https://apps.apple.com/us/app/barmath/id6737529139)
 
 ## 🧰 Tech Stack
 
@@ -35,17 +35,36 @@ BarMath is available exclusively on the Apple Watch via the App Store.
 * **watchOS native app**
 
 ## 📸 Screenshots
-Default view:
 
-![BarMath Screenshot](images/Default.png)
+| Default view | Set bar weight | Add plate weight |
+|----------|----------|----------|
+| ![BarMath Screenshot](images/Default.png)  | ![BarMath Screenshot](images/barset.png) | ![BarMath Screenshot](images/badge.png) |
 
-Set bar weight:
 
-![BarMath Screenshot](images/barset.png)
+# 🛠️ App Architecture
 
-Add plate weight:
+This iOS Watch app is built using a custom Redux-style architecture. The goal was to adopt a predictable state management pattern without introducing third-party dependencies such as The Composable Architecture (TCA).
 
-![BarMath Screenshot](images/badge.png)
+Key Concepts:
+* Single Source of Truth: The app state is centralized and immutable, updated only through actions.
+
+* Unidirectional Data Flow: Views dispatch actions; reducers handle state transitions; the updated state flows back to the views.
+
+* Pure Reducers: Reducers are pure functions that describe how the state changes in response to actions.
+
+* Side Effects Encapsulated: Effects (e.g., network calls, timers) are managed explicitly and separated from state logic.
+
+Why Not Use TCA?
+While TCA provides a powerful and battle-tested architecture, we opted to implement a lightweight, hand-rolled Redux system to:
+
+* Maintain full control over the architecture.
+
+* Minimize binary size and dependencies on the Watch.
+
+* Keep the learning curve minimal for contributors familiar with Redux concepts.
+
+* This approach strikes a balance between architectural clarity and simplicity, making it ideal for the constraints of watchOS development.
+
 
 
 
