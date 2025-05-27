@@ -65,12 +65,10 @@ While TCA provides a powerful and battle-tested architecture, we opted to implem
 
 * This approach strikes a balance between architectural clarity and simplicity, making it ideal for the constraints of watchOS development.
 
+## Redux Diagram
 
+![Redux Diagram](images/ReduxDiagram.jpg)
 
-
-
-
-
-
-
-
+View contains the AppStore, which is the single source of truth for the app state. 
+The view dispatches actions to the store, which are processed by reducers to update the state. 
+The updated state is then reflected in the view.
